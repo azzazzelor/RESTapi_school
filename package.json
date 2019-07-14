@@ -1,0 +1,38 @@
+{
+  "name": "schoolbeck",
+  "version": "1.0.0",
+  "description": "beck",
+  "main": "index.js",
+  "scripts": {
+    "start-node": "node api/start.js",
+    "start-node-watch": "nodemon api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azzazzelor/restApi__school.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "vadim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azzazzelor/restApi__school/issues"
+  },
+  "homepage": "https://github.com/azzazzelor/restApi__school#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.4",
+    "globby": "^10.0.1",
+    "mongoose": "^5.5.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/register": "^7.4.4",
+    "nodemon": "^1.19.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.7.1"
+  }
+}
