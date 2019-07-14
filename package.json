@@ -30,8 +30,9 @@
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
     "@babel/register": "^7.4.4",
+    "babel-loader": "^8.0.6",
     "nodemon": "^1.19.1",
-    "webpack": "^4.33.0",
+    "webpack": "^4.35.3",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.7.1"
   }
