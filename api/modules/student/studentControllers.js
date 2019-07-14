@@ -4,11 +4,11 @@ const mongoose = require('mongoose'),
     Student = mongoose.model('Student');
 
 exports.get_students = (req,res) => {
-    Student.findById(req.params.tutorId, function(err, student) {
+    Student.find(req.params.tutorId, function(err, student) {
         if (err)
             res.send(err);
         res.json(student);
-    });
+    }).limit(20);
 }
 
 exports.create_student = function(req, res) {
