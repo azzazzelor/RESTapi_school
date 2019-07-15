@@ -4,8 +4,7 @@
   "description": "beck",
   "main": "index.js",
   "scripts": {
-    "start-node": "node api/start.js",
-    "start-node-watch": "nodemon api/index.js"
+    "start-node": "node api/start.js"
   },
   "repository": {
     "type": "git",
