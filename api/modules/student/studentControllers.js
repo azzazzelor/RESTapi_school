@@ -4,7 +4,7 @@ const mongoose = require('mongoose'),
     Student = mongoose.model('Student');
 
 exports.get_students = (req,res) => {
-    Student.find(req.params.tutorId, function(err, student) {
+    Student.findById((req.params.id).exec(), function(err, student) {
         if (err)
             res.send(err);
         res.json(student);

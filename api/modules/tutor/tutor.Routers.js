@@ -6,7 +6,7 @@ module.exports = function(app) {
     app.route('/tutor')
         .post(tutor.create_tutor);
 
-    app.route('/tutor/:schoolId')
+    app.route('/tutor/:id')
         .get(tutor.get_tutors)
     
         

@@ -8,9 +8,9 @@ const schoolSchema = new Schema({
     name : {
         type: String,
     },
-    tutors : [{
+    tutors : {type :[{
         type: Schema.Types.ObjectId, ref: 'Tutor'
-     }]
+     }]}
 })
 
 export default mongoose.model('School', schoolSchema);
